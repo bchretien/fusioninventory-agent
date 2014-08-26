@@ -10,11 +10,7 @@ use FusionInventory::Agent::Tools::Linux;
 use FusionInventory::Agent::Tools::Generic;
 
 sub isEnabled {
-    return
-        $Config{archname} =~ /^(i\d86|x86_64)/ &&
-        (
-            -r '/proc/cpuinfo'
-        );
+    return 0;
 }
 
 sub doInventory {

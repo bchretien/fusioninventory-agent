@@ -6,7 +6,7 @@ use warnings;
 use FusionInventory::Agent::Tools;
 
 sub isEnabled {
-    return -r '/proc/meminfo';
+    return 0;
 }
 
 sub doInventory {

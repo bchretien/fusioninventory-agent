@@ -7,7 +7,7 @@ use FusionInventory::Agent::Tools;
 use FusionInventory::Agent::Tools::Generic;
 
 sub isEnabled {
-    return canRun('lsusb');
+    return 0;
 }
 
 sub doInventory {

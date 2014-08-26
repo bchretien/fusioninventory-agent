@@ -6,7 +6,7 @@ use warnings;
 use FusionInventory::Agent::Tools;
 
 sub isEnabled {
-    return -r '/proc/bus/input/devices';
+    return 0;
 }
 
 sub doInventory {

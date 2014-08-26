@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 sub isEnabled {
-    return 1;
+    return 0;
 }
 
 sub doInventory {}

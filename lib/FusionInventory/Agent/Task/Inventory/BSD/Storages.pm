@@ -6,7 +6,7 @@ use warnings;
 use FusionInventory::Agent::Tools;
 
 sub isEnabled {
-    return -r '/etc/fstab';
+    return 0;
 }
 
 sub doInventory {

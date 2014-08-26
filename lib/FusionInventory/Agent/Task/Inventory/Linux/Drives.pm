@@ -7,9 +7,7 @@ use FusionInventory::Agent::Tools;
 use FusionInventory::Agent::Tools::Unix;
 
 sub isEnabled {
-    return
-        canRun('df') ||
-        canRun('lshal');
+    return 0;
 }
 
 sub doInventory {

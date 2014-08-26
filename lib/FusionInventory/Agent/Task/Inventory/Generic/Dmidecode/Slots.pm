@@ -13,7 +13,7 @@ my %status = (
 );
 
 sub isEnabled {
-    return 1;
+    return 0;
 }
 
 sub doInventory {

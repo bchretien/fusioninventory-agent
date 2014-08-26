@@ -12,9 +12,7 @@ our $runMeIfTheseChecksFailed =
     ["FusionInventory::Agent::Task::Inventory::Generic::Dmidecode"];
 
 sub isEnabled{
-    return
-        $Config{archname} eq 'i386' ||
-        $Config{archname} eq 'x86_64';
+    return 0;
 }
 
 sub doInventory {
